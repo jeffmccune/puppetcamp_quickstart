@@ -1,0 +1,8 @@
+project_entry ::=
+Puppet=~/plabs/puppet [CD=~/plabs/puppet in=~/.vim/project/findfiles-in.vim ] {
+~/plabs/puppet
+~/plabs/puppet/lib/puppet/provider/service/upstart.rb
+}
+
+project_entry ::=
+puppet-demotools=~/plabs/puppet-demotools [CD=~/plabs/puppet-demotools in=~/.vim/project/findfiles-in.vim ]

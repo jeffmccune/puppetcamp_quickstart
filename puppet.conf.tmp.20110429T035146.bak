@@ -1,0 +1,26 @@
+[main]
+    vardir = /var/opt/lib/pe-puppet
+    logdir = /var/log/pe-puppet
+    rundir = /var/run/pe-puppet
+    modulepath = /etc/puppetlabs/puppet/modules
+    user = pe-puppet
+    group = pe-puppet
+
+[master]
+    certname = localhost.localdomain
+    certdnsnames = localhost:localhost.localdomain:puppet:puppet.localdomain
+    reports = http, store
+    reportsurl = http://localhost:3000/reports/
+    node_terminus  = exec
+    external_nodes = /etc/puppetlabs/puppet-dashboard/external_node
+    ssl_client_header = SSL_CLIENT_S_DN
+    ssl_client_verify_header = SSL_CLIENT_VERIFY
+
+[agent]
+    certname = localhost.localdomain
+    server = localhost.localdomain
+    report = true
+    classfile = $vardir/classes.txt
+    localconfig = $vardir/localconfig
+    graph = true
+    pluginsync = true

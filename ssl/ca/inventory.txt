@@ -1,0 +1,5 @@
+# Inventory of signed certificates
+# SERIAL NOT_BEFORE NOT_AFTER SUBJECT
+0x0001 2011-04-28T10:52:08GMT 2016-04-26T10:52:08GMT /CN=Puppet CA: puppetmaster.localdomain
+0x0002 2011-04-28T10:52:08GMT 2016-04-26T10:52:08GMT /CN=puppetmaster.localdomain
+0x0003 2011-04-28T11:01:40GMT 2016-04-26T11:01:40GMT /CN=puppetagent.localdomain

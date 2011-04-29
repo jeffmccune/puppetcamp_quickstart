@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/jeff/projects/nodename/puppet26/puppet'
+let g:netrw_dirhist_2='/Users/jeff/projects/nodename/puppet26/modules_src/puppetlabs-nodenamefact/lib'
+let g:netrw_dirhist_3='/Volumes/PuppetSecure/puppetlabs-slidekit/puppetlabs-training/src/slides'
